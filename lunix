@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunix</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            background-color: #fefefe;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #e74c3c;
+            font-size: 2.5em;
+        }
+
+        a {
+            margin-top: 1em;
+            font-size: 1.2em;
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>You spelled it wrong</h1>
+    <a href="https://www.linux.org" target="_blank">Go to Linux.org</a>
+</body>
+
+</html>
